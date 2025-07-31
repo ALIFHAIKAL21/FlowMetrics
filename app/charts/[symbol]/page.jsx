@@ -1,4 +1,4 @@
-import ForexChartClient from './forexChartClient'; 
+import ForexChartClient from './forexChartClient';
 
 const symbols = [
   // Major Pairs
@@ -49,8 +49,10 @@ export default function ChartPage({ params }) {
   const symbol = params.symbol.toUpperCase().replace(/(.{3})(.{3})/, '$1/$2');
   return (
     <div className="p-4">
- 
-      <ForexChartClient symbol={symbol} />
+      <main className='min-h-screen w-full'>
+        <ForexChartClient symbol={symbol} />
+      </main>
+
     </div>
   );
 }

@@ -19,18 +19,14 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a href="/forexList" className="hover:text-emerald-400 transition">
+            <a href="/" className="hover:text-emerald-400 transition">
               Forex
             </a>
           </li>
-          <li>
-            <a href="/crypto" className="hover:text-emerald-400 transition">
-              Crypto
-            </a>
-          </li>
+         
           <li>
             <a href="/about" className="hover:text-emerald-400 transition">
-              About
+               Developer
             </a>
           </li>
         </ul>
