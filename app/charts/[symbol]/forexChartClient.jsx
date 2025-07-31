@@ -369,3 +369,4 @@ export default function ForexChartClient({ symbol }) {
     </div>
   );
 }
+// tes 
