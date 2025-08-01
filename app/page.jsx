@@ -1,6 +1,7 @@
-import ForexList from './forexList';
+import Home from './home';
+
 
 export default function Page() {
-  return <ForexList />;
+  return <Home />;
   
 }

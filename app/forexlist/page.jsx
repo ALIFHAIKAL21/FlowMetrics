@@ -2,8 +2,9 @@
 
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import Loader from './components/loader';
-import ErrorMessage from './components/errorMessage';
+import Loader from '../components/loader';
+import ErrorMessage from '../components/errorMessage';
+
 
 export default function ForexList() {
   const router = useRouter();

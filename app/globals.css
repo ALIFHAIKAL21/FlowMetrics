@@ -24,3 +24,9 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.tradingview-widget,
+.tradingview-widget-container {
+  display: none !important;
+  visibility: hidden !important;
+}

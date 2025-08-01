@@ -19,16 +19,22 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a href="/" className="hover:text-emerald-400 transition">
+            <a href="/forexlist" className="hover:text-emerald-400 transition">
               Forex
             </a>
           </li>
-         
+
           <li>
-            <a href="/about" className="hover:text-emerald-400 transition">
-               Developer
+            <a href="/cryptolist" className="hover:text-emerald-400 transition">
+              Crypto
             </a>
           </li>
+          <li>
+            <a href="/developer" className="hover:text-emerald-400 transition">
+              Developer
+            </a>
+          </li>
+
         </ul>
 
         {/* Hamburger Button (Mobile + iPad) */}
@@ -49,18 +55,18 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a href="/forex" className="hover:text-emerald-400 transition block">
+            <a href="/forexlist" className="hover:text-emerald-400 transition block">
               Forex
             </a>
           </li>
           <li>
-            <a href="/crypto" className="hover:text-emerald-400 transition block">
+            <a href="/cryptolist" className="hover:text-emerald-400 transition block">
               Crypto
             </a>
           </li>
           <li>
-            <a href="/about" className="hover:text-emerald-400 transition block">
-              About
+            <a href="/developer" className="hover:text-emerald-400 transition block">
+              Developer
             </a>
           </li>
         </ul>
