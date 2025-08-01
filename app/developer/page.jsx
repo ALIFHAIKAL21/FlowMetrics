@@ -1,6 +1,7 @@
 'use client';
 
 import { Github, Mail, User, BookOpen, Rocket } from 'lucide-react';
+import Link from 'next/link';
 
 export default function Developer() {
     return (
