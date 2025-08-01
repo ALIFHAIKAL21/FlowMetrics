@@ -30,12 +30,7 @@ export default function Home() {
                         View Forex List
                     </Link>
 
-                    <Link
-                        href="/developer"
-                        className="px-6 py-3 border border-emerald-500 hover:bg-emerald-500/20 text-emerald-400 rounded-lg text-sm md:text-base font-medium transition"
-                    >
-                        About the Developer
-                    </Link>
+                   
                 </div>
 
                 {/* Feature Highlights */}
