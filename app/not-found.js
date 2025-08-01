@@ -1,6 +1,7 @@
 'use client';
 
 import { Home, AlertTriangle } from 'lucide-react';
+import Link from 'next/link';
 
 export default function NotFoundPage() {
   return (
@@ -17,12 +18,12 @@ export default function NotFoundPage() {
       </p>
 
       {/* Back to Home */}
-      <a
+      <Link
         href="/"
         className="flex items-center gap-2 px-6 py-3 bg-emerald-700 hover:bg-emerald-800 text-white rounded-lg text-sm md:text-base font-medium transition"
       >
         <Home size={18} /> Back to Home
-      </a>
+      </Link>
     </main>
   );
 }
