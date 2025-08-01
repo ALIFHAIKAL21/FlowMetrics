@@ -1,5 +1,7 @@
 'use client';
 
+import Link from 'next/link';
+
 export default function Home() {
     return (
         <main className="container mx-auto p-6 md:p-10 mt-12 font-sans">
@@ -21,19 +23,19 @@ export default function Home() {
 
                 {/* Call to Action Buttons */}
                 <div className="flex flex-col md:flex-row justify-center gap-4 mb-10">
-                    <a
+                    <Link
                         href="/forexlist"
                         className="px-6 py-3 bg-emerald-700 hover:bg-emerald-800 text-white rounded-lg text-sm md:text-base font-medium transition"
                     >
                         View Forex List
-                    </a>
+                    </Link>
 
-                    <a
+                    <Link
                         href="/developer"
                         className="px-6 py-3 border border-emerald-500 hover:bg-emerald-500/20 text-emerald-400 rounded-lg text-sm md:text-base font-medium transition"
                     >
                         About the Developer
-                    </a>
+                    </Link>
                 </div>
 
                 {/* Feature Highlights */}

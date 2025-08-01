@@ -3,8 +3,8 @@
 import { createChart } from 'lightweight-charts';
 import { useRef, useState, useEffect } from 'react';
 import { fetchWithFCSKey } from '../../utils/fcsApiClient';
-import Loader from '../../components/Loader';
-import ErrorMessage from '../../components/ErrorMessage';
+import Loader from '../../components/loader';
+import ErrorMessage from '../../components/errorMessage';
 import { CandlestickChart, LineChart } from "lucide-react";
 
 const PERIOD_OPTIONS = ['1m', '5m', '15m', '30m', '1h', '4h', '1d', '1w'];

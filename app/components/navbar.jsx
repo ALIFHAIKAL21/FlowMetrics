@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
 
 export default function Navbar() {
@@ -14,27 +15,25 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-6 text-sm font-medium">
           <li>
-            <a href="/" className="hover:text-emerald-400 transition">
+            <Link href="/" className="hover:text-emerald-400 transition">
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/forexlist" className="hover:text-emerald-400 transition">
+            <Link href="/forexlist" className="hover:text-emerald-400 transition">
               Forex
-            </a>
+            </Link>
           </li>
-
           <li>
-            <a href="/cryptolist" className="hover:text-emerald-400 transition">
+            <Link href="/cryptolist" className="hover:text-emerald-400 transition">
               Crypto
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/developer" className="hover:text-emerald-400 transition">
+            <Link href="/developer" className="hover:text-emerald-400 transition">
               Developer
-            </a>
+            </Link>
           </li>
-
         </ul>
 
         {/* Hamburger Button (Mobile + iPad) */}
@@ -50,24 +49,24 @@ export default function Navbar() {
       {isOpen && (
         <ul className="flex flex-col mt-4 space-y-3 text-sm font-medium md:hidden">
           <li>
-            <a href="/" className="hover:text-emerald-400 transition block">
+            <Link href="/" className="hover:text-emerald-400 transition block">
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/forexlist" className="hover:text-emerald-400 transition block">
+            <Link href="/forexlist" className="hover:text-emerald-400 transition block">
               Forex
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/cryptolist" className="hover:text-emerald-400 transition block">
+            <Link href="/cryptolist" className="hover:text-emerald-400 transition block">
               Crypto
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/developer" className="hover:text-emerald-400 transition block">
+            <Link href="/developer" className="hover:text-emerald-400 transition block">
               Developer
-            </a>
+            </Link>
           </li>
         </ul>
       )}

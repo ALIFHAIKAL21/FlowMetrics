@@ -32,22 +32,22 @@ export default function Developer() {
 
                 {/* Action Buttons */}
                 <div className="flex flex-col md:flex-row justify-center gap-4 mb-10">
-                    <a
+                    <Link
                         href="https://github.com/ALIFHAIKAL21" // Ganti dengan username kamu
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center justify-center gap-2 px-6 py-3 bg-emerald-700 hover:bg-emerald-800 text-white rounded-lg text-sm md:text-base font-medium transition"
                     >
                         <Github size={18} /> View GitHub
-                    </a>
-<a
-  href="https://mail.google.com/mail/?view=cm&fs=1&to=haikalsialip999@gmail.com"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="flex items-center justify-center gap-2 px-6 py-3 border border-emerald-500 hover:bg-emerald-500/20 text-emerald-400 rounded-lg text-sm md:text-base font-medium transition"
->
-  <Mail size={18} /> Contact Me
-</a>
+                    </Link>
+                    <Link
+                        href="https://mail.google.com/mail/?view=cm&fs=1&to=haikalsialip999@gmail.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center gap-2 px-6 py-3 border border-emerald-500 hover:bg-emerald-500/20 text-emerald-400 rounded-lg text-sm md:text-base font-medium transition"
+                    >
+                        <Mail size={18} /> Contact Me
+                    </Link>
 
 
                 </div>
